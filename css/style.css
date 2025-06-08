@@ -477,3 +477,17 @@
     padding-right: 0;
     border-right: none;
 }
+
+/*  */
+.owl-carousel .owl-stage{
+    display: flex;
+}
+.testimonial-item {
+    display: flex;
+    flex: 1 0 auto;
+    height: 100%;
+    flex-direction: column;
+}
+.testimonial-carousel .owl-item .testimonial-item > div:last-child {
+    margin-top: auto;
+}
