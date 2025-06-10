@@ -497,3 +497,6 @@
         min-width: 100%;
     }
 }
+.food_nav h6 {
+    font-size: 14px!important;
+}
