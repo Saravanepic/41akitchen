@@ -518,6 +518,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6{
     ul.food_nav {
         display: grid!important;
         grid-template-columns: 1fr 1fr;
+        gap:10px;
     }
     
     ul.food_nav li a {
