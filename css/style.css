@@ -1,10 +1,13 @@
 /********** Template CSS **********/
 :root {
-    --primary: #FEA116;
+    --primary: #d4664b;
     --light: #F1F8FF;
     --dark: #0F172B;
 }
 
+.text-primary {
+    color: var(--primary) !important;
+}
 .ff-secondary {
     font-family: 'Pacifico', cursive;
 }
@@ -25,6 +28,16 @@
     z-index: 99;
 }
 
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6{
+      /* font-family: "Ibarra Real Nova", serif!important; */
+    font-family: "Heebo",sans-serif!important;
+        font-weight: 600!important;
+}
+
+.btn-primary{
+    background-color: #d4664b!important;
+    border-color: #d4664b!important;
+}
 
 /*** Spinner ***/
 #spinner {
@@ -152,7 +165,8 @@
 
 /*** Hero Header ***/
 .hero-header {
-    background: linear-gradient(rgba(15, 23, 43, .9), rgba(15, 23, 43, .9)), url(../img/bg-hero.jpg);
+    /* background: linear-gradient(rgba(15, 23, 43, .9), rgba(15, 23, 43, .9)), url(../img/about/41AOut.png); */
+    background:linear-gradient(rgba(15, 23, 43, .5), rgba(15, 23, 43, .9)), url(../img/about/41AOut.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
