@@ -8,6 +8,9 @@
 .text-primary {
     color: var(--primary) !important;
 }
+.text-dark {
+    color: #666565!important;
+}
 .ff-secondary {
     font-family: 'Pacifico', cursive;
 }
