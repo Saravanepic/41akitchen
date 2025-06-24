@@ -179,6 +179,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6{
     animation: imgRotate 50s linear infinite;
 }
 
+
 @keyframes imgRotate { 
     100% { 
         transform: rotate(360deg); 
@@ -207,7 +208,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6{
     background: var(--primary);
 }
 
-.section-title::after {
+/* .section-title::after {
     position: absolute;
     content: "";
     width: 45px;
@@ -216,7 +217,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6{
     right: -55px;
     margin-top: -1px;
     background: var(--primary);
-}
+} */
 
 .section-title.text-start::before,
 .section-title.text-end::after {
@@ -512,6 +513,9 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6{
 .food_nav h6 {
     font-size: 14px!important;
 }
+.footer_logo{
+    max-width: 200px;
+}
 @media all and (min-width: 1200px) {
     .container-xxl{
         min-width: 100%;
@@ -531,5 +535,8 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6{
     .back-to-top{
         right: 15px;
         bottom: 15px;
+    }
+    .hero-header img {
+        max-width: 300px;
     }
 }
